@@ -1,0 +1,43 @@
+header {
+    height: 100px;
+    background-color: #7BCDBA;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header img {
+    height: 100%;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+
+    list-style: none;
+    
+}
+
+header a {
+    color: #EF476F;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header a:hover {
+    background-color: rgb(219, 219, 165);
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cardContainer .card {
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
